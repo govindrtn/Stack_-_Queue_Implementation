@@ -8,5 +8,6 @@ public class StackMain {
 		myStack.push(70);
 		myStack.push(30);
 		myStack.push(56);
+		myStack.print();
 	}
 }
