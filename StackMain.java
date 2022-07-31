@@ -9,5 +9,11 @@ public class StackMain {
 		myStack.push(30);
 		myStack.push(56);
 		myStack.print();
+		
+		System.out.println("Stack stack after calling pop method ");
+		myStack.pop();
+		myStack.print();
+		myStack.peak();
+		
 	}
 }

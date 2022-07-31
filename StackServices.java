@@ -9,17 +9,17 @@ public class StackServices<T extends Comparable<T>> {
 	public void push(T data) {
 		linkedList.add(data);
 	}
-	
+
 	public void pop() {
 		linkedList.pop();
 	}
-	
+
 	public void peak() {
-		System.out.println("Top element in linkedLit "+linkedList.head.data);
+		System.out.println("Top element in linkedLit " + linkedList.head.data);
 	}
 
 	public void print() {
 		linkedList.display();
 	}
-	
+
 }
