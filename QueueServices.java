@@ -13,5 +13,8 @@ public class QueueServices<T extends Comparable<T>> {
 	public void print() {
 		linkedList.display();
 	}
-
+	
+	public void deQueue() {
+		linkedList.pop();
+	}
 }

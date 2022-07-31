@@ -10,5 +10,8 @@ public class QueueMain {
 		myQueue.enQueue(30);
 		myQueue.enQueue(70);
 		myQueue.print();
+		
+		myQueue.deQueue();
+		myQueue.print();
 	}
 }
